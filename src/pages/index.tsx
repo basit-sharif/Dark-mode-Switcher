@@ -22,7 +22,7 @@ export default function Home() {
           <OffCanvasSidebar />
         </header>
         <main className='h-screen flex flex-col justify-center items-center'>
-          <h1 className="text-7xl font-bold">{theme === "dark" ? "Dark" : "Light"}{" "}<span className='text-purple-600'>Mode</span></h1>
+          <h1 className="text-5xl sm:text-7xl font-bold">{theme === "dark" ? "Dark" : "Light"}{" "}<span className='text-purple-600'>Mode</span></h1>
           <p className='text-purple-600 font-semibold py-6'>Click the button to swicth between Modes</p>
           {theme === "light" ?
             <div onClick={() => setTheme("dark")} className='border-2 border-[#9898ba] cursor-pointer w-24 py-2 px-4 flex justify-center mx-auto rounded-lg'>
