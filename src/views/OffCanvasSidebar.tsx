@@ -5,7 +5,7 @@ import { Dashboard, ECommerce, Inbox, Kanban, Products, SignIn, SignUp, User } f
 
 
 export default function OffCanvasSidebarView() {
-    const [sidebar, setSidebar] = useState(false)
+    const [sidebar, setSidebar] = useState(false);
     return (
         <>
             <div className="text-center">
